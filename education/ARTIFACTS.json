@@ -1,0 +1,15 @@
+{
+  "prepared_on": "2026-10-23",
+  "companion_markdown": {
+    "file": "COMPANION.md",
+    "sha256": "75a4c12dac2c5ee47a67cadfd6b24ddd264c7bc6be2d4b4bad521082cc577b14"
+  },
+  "companion_pdf": {
+    "file": "COMPANION.pdf",
+    "sha256": "d3a433a86288d97cdeb30e3805dd062cae50b38424f8bdcd9b7af8f756d3a880",
+    "pages": 97
+  },
+  "basis": "Exact manuscript version specified in README.md. Future manuscript versions require a new fidelity check.",
+  "pdf_preparation": "Unchanged existing companion PDF",
+  "review_scope": "AI-assisted source fidelity and numerical checks; PDF pages rendered and visually inspected. No human learner or full scientific validation claimed."
+}

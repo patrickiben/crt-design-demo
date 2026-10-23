@@ -23,6 +23,10 @@ Code and data for the paper, including the R pipeline this page ports, are at [d
 
 No build step, no dependencies, no tracking. Open `index.html` in any modern browser.
 
+## Educational companion
+
+[Plain-language reading guide and PDF](education/README.md), with a route through the full companion, ten-metric definitions, self-check answers and exact manuscript provenance.
+
 ## Code license and third-party material
 
 Original project code is licensed under [MIT](LICENSE), copyright 2026 Patrick Iben.
