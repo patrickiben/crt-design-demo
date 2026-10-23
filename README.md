@@ -16,3 +16,16 @@ The trial is simulated. The geography, survey counts and connectivity are real, 
 Code and data for the paper, including the R pipeline this page ports, are at [doi:10.17605/OSF.IO/XPA4S](https://doi.org/10.17605/OSF.IO/XPA4S).
 
 No build step, no dependencies, no tracking. Open `index.html` in any modern browser.
+
+## Code license and third-party material
+
+Original project code is licensed under [MIT](LICENSE), copyright 2026 Patrick Iben.
+Third-party code, fonts, data, model assets and outputs retain their respective licenses and terms;
+they are not relicensed by this file.
+
+## Browser smoke checks
+
+Run `npm ci`, `npx playwright install --only-shell chromium`, then `npm test`.
+The browser check runs from a local HTTP origin with external requests blocked. It exercises
+interactive recomputation and checks packaged input/result integrity. It is a smoke check,
+not independent validation of the deposited scientific analysis. GitHub Actions runs it on changes.
