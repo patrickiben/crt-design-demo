@@ -5,9 +5,10 @@
 A single self-contained HTML page that runs the preprint's pipeline in your browser,
 on its frozen public geography: 57 Malaria Atlas Project survey sites in Uganda.
 
-> Iben P. *Contamination-Resilient Cluster Randomized Trial Design under Spatial Interference: A Simulation Study of Contamination Control.* Preprint, 2026. [doi:10.5281/zenodo.23486177](https://doi.org/10.5281/zenodo.23486177)
+> Iben P. *Contamination-Resilient Cluster Randomized Trial Design under Spatial Interference: A Simulation Study of Contamination Control.* Preprint v1, 2026. [doi:10.5281/zenodo.23486177](https://doi.org/10.5281/zenodo.23486177)
 
-Corresponding [study code and data](https://doi.org/10.17605/OSF.IO/XPA4S) ·
+[Latest preprint](https://doi.org/10.5281/zenodo.23486176) ·
+corresponding [study code and data](https://doi.org/10.17605/OSF.IO/XPA4S) ·
 [Manuscript → code → demo map](https://github.com/patrickiben/patrickiben/blob/main/RESEARCH_MAP.md).
 Spatial exposure and spillover methods from this framework are also adapted in
 [Coastal Water Resilience](https://patrickiben.github.io/public-data-consoles/consoles/coastal-water-resilience/),
