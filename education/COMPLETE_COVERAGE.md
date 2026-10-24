@@ -1,10 +1,10 @@
 # Complete companion coverage: CRT
 
-The original complete companion contains 95 entries in manuscript reading order. The identifiers are retained from its source workflow, so they are not numerically sequential in reading order. This register maps every entry to its original source locator.
+The complete companion contains 95 entries in manuscript reading order. Entry identifiers are not numerically sequential. This register maps every entry to its source locator.
 
 Exact basis: public-data preprint v1, DOI [10.5281/zenodo.23486177](https://doi.org/10.5281/zenodo.23486177), including Appendices A-D. The frozen TeX SHA-256 is `458469112b59d68ab6deda48fc205b3679e36568494453d4ca9933dd11ea0e93`; line numbers below refer to that source, not the PDF viewer. The source PDF SHA-256 is `9427b16d36adaab1eb6119a106476bc4d054340d73fea2760ce82f01dad3685d`.
 
-The inherited source-accounting check maps substantive text or records structural exclusions. Bibliography entries, TeX layout commands and repeated formatting are not separately taught as scientific claims. Figures, tables, methods, findings, limitations and declarations are addressed in the passage units below. The underlying check reported no unaccounted nonblank lines, numeric or locator failures; its human learner and accessibility review remains incomplete. This is not a claim of full scientific or educational certification.
+The map covers substantive text and identifies structural exclusions. Bibliography entries, TeX layout commands and repeated formatting are not separately taught as scientific claims. Figures, tables, methods, findings, limitations and declarations are addressed in the passage units below.
 
 ## Entry register
 
@@ -295,4 +295,4 @@ Manuscript lines 1256-1323. The last appendix, the two tables after its three pa
 
 ## Edition relationship
 
-The concise study guide selects the central distinctions and adds answered teaching calculations. It does not claim the coverage of this full walkthrough. Neither edition updates automatically when the manuscript changes. The unchanged full companion uses the six-field teaching grammar, including a prompt in every entry. The reader entry and short guide provide additional answered self-checks.
+The concise study guide selects the central distinctions and adds answered teaching calculations. It does not claim the coverage of this full walkthrough. Neither edition updates automatically when the manuscript changes. The full companion uses the six-field teaching grammar, including a prompt in every entry. The reader entry and short guide provide additional answered self-checks.

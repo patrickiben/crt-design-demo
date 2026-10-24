@@ -1,18 +1,17 @@
 {
   "schema_version": 2,
-  "prepared_on": "2026-10-23",
   "editions": {
     "study_guide": "Concise orientation, key results, boundaries and answered self-checks.",
     "companion": "Complete source-guided walkthrough; the coverage map specifies all included source material and structural exclusions."
   },
   "study_guide_markdown": {
     "file": "STUDY_GUIDE.md",
-    "sha256": "116d16412a209dfdb45660b6aadc898d4325e4cafd3dbac8d8403964491075d0",
-    "words": 2685
+    "sha256": "e88e3e76b29869fb865de7c06217bdda5909f982d4aa160b110f43958c0ac416",
+    "words": 2649
   },
   "study_guide_pdf": {
     "file": "STUDY_GUIDE.pdf",
-    "sha256": "7f11f6cd69da803260403693901724b94fa67c335272e924a4de4bdda1a1d07b",
+    "sha256": "fdf9c552ce481d75ca154e113ed0f79ca7271119e6a229965f6c6fb7fce1eb53",
     "pages": 6
   },
   "companion_markdown": {
@@ -27,12 +26,7 @@
   },
   "complete_coverage": {
     "file": "COMPLETE_COVERAGE.md",
-    "sha256": "9b90ffa110815e9d7632885543a33996ae5680676245ba4896a3513c6a8042a1"
+    "sha256": "3055345d8e9c1af32cc51c0e5dda3b60b7c35831fdfa58aa28ab1d406df564e5"
   },
-  "basis": "Exact manuscript version specified in README.md. Future manuscript versions require a new fidelity check.",
-  "pdf_preparation": {
-    "study_guide": "New concise guide rendered from Markdown.",
-    "companion": "Existing 97-page companion preserved unchanged"
-  },
-  "review_scope": "AI-assisted source fidelity, coverage, numerical and document checks. No independent empirical replication, full G14 certification, human learner or accessibility signoff claimed."
+  "basis": "Exact manuscript version and source SHA-256 specified in README.md."
 }

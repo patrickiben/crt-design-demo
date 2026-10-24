@@ -2,7 +2,7 @@
 
 A short introduction to *Contamination-Resilient Cluster Randomized Trial Design under Spatial Interference: A Simulation Study of Contamination Control* by Patrick Iben.
 
-This guide explains the main argument, ten dimensions, key results and limits. It is for a numerate reader with one statistics course. It is the shorter of two editions: the [complete companion](COMPANION.md) gives 95 passage-by-passage explanations, with an unchanged [97-page PDF](COMPANION.pdf). Use that edition for the full methods and appendix walkthrough.
+This guide explains the main argument, ten dimensions, key results and limits. It is for a numerate reader with one statistics course. It is the shorter of two editions: the [complete companion](COMPANION.md) gives 95 passage-by-passage explanations, with a [97-page PDF](COMPANION.pdf). Use that edition for the full methods and appendix walkthrough.
 
 **Exact basis:** preprint v1, [Zenodo record 23486177](https://doi.org/10.5281/zenodo.23486177), including Appendices A-D.
 
@@ -25,9 +25,9 @@ The practical lesson is to plan allocation and analysis together. The paper does
 5. **§5.3, Table 5, pp44-48:** Separate whole-cluster and full-objective comparisons.
 6. **§6.1 and Appendices C-D, pp51-54 and pp77-84:** Limitations, wrong kernels, candidate-pool variation and extra correlation.
 
-The paper uses **57 public Malaria Atlas Project survey sites** after its stated filtering. The 110 merged locations appear in the directed map, not the trial analysis. A separate private 55-site predecessor is not the basis of this edition. Source: §2, PDF p5, and the public workflow figure on p7.
+The paper uses **57 public Malaria Atlas Project survey sites** after its stated filtering. The 110 merged locations appear in the directed map, not the trial analysis. Source: §2, PDF p5, and the public workflow figure on p7.
 
-One wording clarification matters when reading the unchanged companion: measured geography and survey counts do not make the connectivity a measured movement network. Gravity flows, exposure scores and cross-arm infection mixing are modeled from real inputs. The trial assignments, intervention and outcomes are simulated. Survey numbers examined are not census populations; elevation rank is not mapped hydrology. See §§2-3 and the companion's data and metric entries.
+Measured geography and survey counts do not make the connectivity a measured movement network. Gravity flows, exposure scores and cross-arm infection mixing are modeled from real inputs. The trial assignments, intervention and outcomes are simulated. Survey numbers examined are not census populations; elevation rank is not mapped hydrology. See §§2-3 and the companion's data and metric entries.
 
 ## The ten dimensions, in the paper's own terms
 
@@ -119,7 +119,7 @@ Finally inspect the failure cases. The paper discusses residual contamination, w
 
 ## Twelve self-checks and answer notes
 
-These answer notes support individual study. They are not evidence that learners were tested.
+Try each question before consulting its answer notes.
 
 1. **Core idea - What is measured, and what is simulated?** Coordinates, survey denominators and baseline parasite rates are public observations. Assignments, intervention effects and trial outcomes are simulated. Exposure and mobility are proxies. In the Yemen and Louisiana corroborations, hypothetical outcome surveys also use a simulated denominator. Source: §2, p5; §4.3, pp36-38; E2.
 2. **Core idea - Why can good baseline balance leave contamination?** Arms can have similar averages while sitting next to each other. Covariate balance and cross-arm exposure address different failure modes. The paper compares them rather than treating either as sufficient. Source: Introduction, pp2-4; §4; E6.
@@ -136,7 +136,7 @@ These answer notes support individual study. They are not evidence that learners
 
 ## Source, scope and further reading
 
-This guide uses the exact source below and adds labeled teaching calculations. Original data terms apply. It does not report a new simulation, field test or human learner validation. Prepared 23 October 2026.
+This guide uses the exact source below. Labeled teaching calculations illustrate its methods; they are not new simulations or field results. Original data terms apply.
 
 - Exact [source PDF](https://zenodo.org/api/records/23486177/files/01_manuscript_publicdata.pdf/content), 84 pages including appendices.
 - Source PDF SHA-256: `9427b16d36adaab1eb6119a106476bc4d054340d73fea2760ce82f01dad3685d`.

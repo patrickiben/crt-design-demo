@@ -5,11 +5,11 @@ Choose the depth that suits your reading:
 | Edition | Read online | Download | What it covers |
 |---|---|---|---|
 | Concise study guide | [Study guide](STUDY_GUIDE.md) | [PDF](STUDY_GUIDE.pdf) | Main argument, ten dimensions, worked examples, key results and answered self-checks. |
-| Complete companion | [Full walkthrough](COMPANION.md) | [97-page PDF](COMPANION.pdf) | The original 95 passage-by-passage entries, covering the manuscript and Appendices A-D. |
+| Complete companion | [Full walkthrough](COMPANION.md) | [97-page PDF](COMPANION.pdf) | Ninety-five passage-by-passage entries, covering the manuscript and Appendices A-D. |
 
 [Complete coverage map](COMPLETE_COVERAGE.md) lists the full companion's source passages. The two editions use the same exact preprint basis. They serve different reading depths.
 
-The audience is a numerate reader with one statistics course and no background in cluster randomized trials. The companion was prepared for the exact public-data manuscript identified below. This entry adds a short route, vocabulary and answer notes. It does not replace the full walkthrough or silently update it for later papers.
+The audience is a numerate reader with one statistics course and no background in cluster randomized trials. Both editions explain the exact public-data manuscript identified below. The study guide introduces vocabulary and key results; the complete companion develops the methods and appendices.
 
 ## A short route through the argument
 
@@ -20,9 +20,9 @@ The audience is a numerate reader with one statistics course and no background i
 5. Compare the separate whole-cluster and full-objective results in **§5.3, Table 5, pp44–48**. They answer a different comparison.
 6. Finish with **§6.1, pp51–54, Appendix C, pp77–80, and Appendix D, pp81–84**. These address assumptions, wrong kernels, candidate-pool variation and extra between-site or between-cluster variation.
 
-The paper uses **57 public Malaria Atlas Project survey sites** after its stated filtering. The 110 merged locations appear in the directed map, not the trial analysis. A separate private 55-site predecessor is not the basis of this edition. Source: §2, PDF p5, and the public workflow figure on p7.
+The paper uses **57 public Malaria Atlas Project survey sites** after its stated filtering. The 110 merged locations appear in the directed map, not the trial analysis. Source: §2, PDF p5, and the public workflow figure on p7.
 
-One wording clarification matters when reading the unchanged companion: measured geography and survey counts do not make the connectivity a measured movement network. Gravity flows, exposure scores and cross-arm infection mixing are modeled from real inputs. The trial assignments, intervention and outcomes are simulated. Survey numbers examined are not census populations; elevation rank is not mapped hydrology. See §§2–3 and the companion's data and metric entries.
+Measured geography and survey counts do not make the connectivity a measured movement network. Gravity flows, exposure scores and cross-arm infection mixing are modeled from real inputs. The trial assignments, intervention and outcomes are simulated. Survey numbers examined are not census populations; elevation rank is not mapped hydrology. See §§2–3 and the companion's data and metric entries.
 
 ## The ten dimensions, in the paper's own terms
 
@@ -58,7 +58,7 @@ AUC means area under a curve. BIC is a model-fit score with a complexity penalty
 
 ## Twelve self-checks and answer notes
 
-These answer notes support individual study. They are not evidence that learners were tested.
+Try each question before consulting its answer notes.
 
 1. **Core idea — What is measured, and what is simulated?** Coordinates, survey denominators and baseline parasite rates are public observations. Assignments, intervention effects and trial outcomes are simulated. Exposure and mobility are proxies. In the Yemen and Louisiana corroborations, hypothetical outcome surveys also use a simulated denominator. Source: §2, p5; §4.3, pp36–38; E2.
 2. **Core idea — Why can good baseline balance leave contamination?** Arms can have similar averages while sitting next to each other. Covariate balance and cross-arm exposure address different failure modes. The paper compares them rather than treating either as sufficient. Source: Introduction, pp2–4; §4; E6.
@@ -75,19 +75,11 @@ These answer notes support individual study. They are not evidence that learners
 
 ## Exact basis and provenance
 
-The complete companion Markdown and PDF are unchanged copies of the existing public-data companion. This entry and its answer notes were added for repository publication on **23 October 2026**. Original local working files were preserved.
-
 - Manuscript: Patrick Iben, *Contamination-Resilient Cluster Randomized Trial Design under Spatial Interference: A Simulation Study of Contamination Control*, **v1**, DOI **10.5281/zenodo.23486177**.
 - Exact source PDF: [01_manuscript_publicdata.pdf](https://zenodo.org/api/records/23486177/files/01_manuscript_publicdata.pdf/content), **84 pages**.
 - Source PDF SHA-256: `9427b16d36adaab1eb6119a106476bc4d054340d73fea2760ce82f01dad3685d`.
 - Frozen manuscript TeX SHA-256, to which the companion's line references point: `458469112b59d68ab6deda48fc205b3679e36568494453d4ca9933dd11ea0e93`.
-- Unchanged companion Markdown SHA-256: `75a4c12dac2c5ee47a67cadfd6b24ddd264c7bc6be2d4b4bad521082cc577b14`.
-- Unchanged companion PDF SHA-256: `d3a433a86288d97cdeb30e3805dd062cae50b38424f8bdcd9b7af8f756d3a880`.
 - Scientific code and data: [OSF deposit XPA4S](https://doi.org/10.17605/OSF.IO/XPA4S). The companion's `supporting/` paths are aliases explained in its opening note.
-
-The current Zenodo record and its latest-version endpoint were checked on 23 October 2026. This guide remains pinned to the exact source above; the repository's manuscript link provides normal preprint navigation.
-
-The existing mechanical G14 checks found 95 six-field entries, no unaccounted manuscript lines under their coverage contract, matching source/excerpt hashes, and no numeric or locator failures. The readability aid passed its stated ceilings. The overall gate remains **PARTIAL**, with human fidelity/learner-transfer, upstream and accessibility rows pending. These checks are not full scientific revalidation or human signoff. Visual inspection of all 97 PDF pages at contact-sheet scale found no clipping or overlap. The PDF is untagged; that inspection does not establish screen-reader accessibility.
 
 The paper's source data and third-party materials retain their existing terms. This educational entry does not change any source or repository license.
 
