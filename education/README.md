@@ -1,6 +1,13 @@
-# A reader's entry to the CRT paper
+# Educational materials for the CRT paper
 
-Read the [full educational companion](COMPANION.md), or download its [97-page PDF](COMPANION.pdf). It explains the paper in reading order through 95 teaching entries. Each entry gives its source passage, plain-language explanation, evidence status, a common misreading and a question to try.
+Choose the depth that suits your reading:
+
+| Edition | Read online | Download | What it covers |
+|---|---|---|---|
+| Concise study guide | [Study guide](STUDY_GUIDE.md) | [PDF](STUDY_GUIDE.pdf) | Main argument, ten dimensions, worked examples, key results and answered self-checks. |
+| Complete companion | [Full walkthrough](COMPANION.md) | [97-page PDF](COMPANION.pdf) | The original 95 passage-by-passage entries, covering the manuscript and Appendices A-D. |
+
+[Complete coverage map](COMPLETE_COVERAGE.md) lists the full companion's source passages. The two editions use the same exact preprint basis. They serve different reading depths.
 
 The audience is a numerate reader with one statistics course and no background in cluster randomized trials. The companion was prepared for the exact public-data manuscript identified below. This entry adds a short route, vocabulary and answer notes. It does not replace the full walkthrough or silently update it for later papers.
 
@@ -26,7 +33,7 @@ The names below identify this paper's quantities. They are not ten validated fie
 | Population Balance | A weighted distance between arm means of four baseline covariates. | Not a headcount difference; raw units and weights matter. |
 | Wasserstein Distance | Average featurewise differences between one-dimensional empirical distributions. | Not a certificate that the full joint distributions match. |
 | Density Symmetry | Similarity of arm density using interaction-weighted ground area. | Geography and proxy weights, not measured contact density. |
-| Euler Characteristic / Spatial Contiguity | The number of connected components in each arm's graph. | The implemented quantity is the component count, not the full Euler characteristic with holes. |
+| Euler Characteristic / Spatial Contiguity | The number of connected pieces in the dissolved treatment-area map. | The implemented quantity is the component count, not the full Euler characteristic with holes. |
 | Persistence Gap | A matching cost between terrain-based persistence diagrams. | The deposited calculation sums squared costs without taking the final square root. |
 | Spatial Mixing | Risk-asymmetry at 10km divided by that at 2km, with a denominator floor. | A scale-sensitivity ratio, not observed social mixing. |
 | Variational Free Energy / VFE | A BIC score for a factor model of spatial-model residuals. | An inherited label; not a fitted variational free-energy bound. |
@@ -61,14 +68,14 @@ These answer notes support individual study. They are not evidence that learners
 6. **Boundary — What does Table 1's precision gain depend on?** The correctly specified spillover-adjusted estimator has RMSE 0.149 under SR and 0.095 under CRR, a reduction of about 36%. This assumes the analysis knows the exposure kernel. Under wrong kernels, adjusted coverage drops to roughly 51–89%. A robust design advantage does not establish robust adjusted inference. Source: Table 1, p32; Appendix C, Table 13, pp77–78.
 7. **Boundary — Can the headline site-allocation result validate the full ten-metric cluster engine?** No. The headline site simulation uses balance and raw cross-arm flux. The full composite is tested separately over whole-cluster candidates. Comparing designs also requires matching cluster resolution and the analysis unit. Source: §4, pp27–38; §5.3, pp44–48; Appendix D.
 8. **Boundary — Does reducing bias guarantee better coverage?** No. Coverage also depends on variance, standard errors and the analysis model. In Table 2 at contamination 0.5, naive CRR coverage is 0.092 versus SR 0.126 despite lower CRR bias. Source: Table 2, p33.
-9. **Transfer — How would you interpret a tiny simulation difference?** Use its MCSE before calling it a gain. For 1,000 binary coverage outcomes the worst-case MCSE is about 0.016. The paper treats differences under two MCSE as directional, and it gives no RMSE MCSE. A few thousandths in RMSE should not be promoted to a firm ranking. Source: §4.2, p31.
+9. **Transfer — How would you interpret a tiny simulation difference?** Use its MCSE before calling it a gain. For 1,000 binary coverage outcomes the worst-case MCSE is about 0.016. The paper treats differences below two MCSE of the difference as directional; three or more meets its precision rule, but reproducibility still matters. It gives no RMSE MCSE. A few thousandths in RMSE should not be promoted to a firm ranking. Source: §4.2, p31.
 10. **Transfer — What changes if sites differ beyond binomial chance?** Use an analysis that respects the allocation and variation. Appendix D shows failure of the simple binomial analysis even without contamination. Its site-level and cluster-level alternatives behave better in the tested settings, but do not eliminate every calibration problem. Under cluster ICC, matched-resolution comparisons also weaken the apparent advantage of coarse partitions. Source: Appendix D, pp81–84.
 11. **Transfer — What would you need before recommending a field design?** A defensible exposure model, operational constraints, a fixed allocation scheme, a variance-aware analysis and a prospective inferential plan. The simulation's surrogate quantities do not supply observed movement or intervention efficacy. Randomization inference is recommended, not evaluated here. A very small allocation space can make a conventional test impossible. Source: §6.1, pp51–54; Appendix D.
 12. **Transfer — Does the proposed mitigation menu prove its actions work?** No. Appendix A gives proposed responses to diagnostic failure. It does not test those actions in a field trial. Treat the menu as a research and planning framework requiring local evidence and validation. Source: Appendix A, pp68–71.
 
 ## Exact basis and provenance
 
-The educational Markdown and PDF are unchanged copies of the existing public-data companion. This entry and its answer notes were added for repository publication on **23 October 2026**. Original local working files were preserved.
+The complete companion Markdown and PDF are unchanged copies of the existing public-data companion. This entry and its answer notes were added for repository publication on **23 October 2026**. Original local working files were preserved.
 
 - Manuscript: Patrick Iben, *Contamination-Resilient Cluster Randomized Trial Design under Spatial Interference: A Simulation Study of Contamination Control*, **v1**, DOI **10.5281/zenodo.23486177**.
 - Exact source PDF: [01_manuscript_publicdata.pdf](https://zenodo.org/api/records/23486177/files/01_manuscript_publicdata.pdf/content), **84 pages**.

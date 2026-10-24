@@ -17,15 +17,15 @@ alongside concepts from the directed-contagion framework.
 - **Live** panels recompute from the raw site data: the four allocation pools (SR, CCR, CC and CRR), the ten-metric ranking with adjustable weights, and a Monte Carlo of the three estimators (naive, boundary-censored, spillover-adjusted). They use a JavaScript port of the deposited R code. The page footer records how closely the port agrees with the deposited run.
 - **Deposited** panels show the archived R results as charts, including the two generalization testbeds.
 
-The trial is simulated. The geography, survey counts and connectivity are real, while the arms, the intervention and its effect are not. As in the paper's main tables, the figures assume no between-site variance; the paper's Appendix D relaxes that assumption.
+The geography and survey counts are dated public observations. Connectivity and exposure are modeled from those inputs; the trial assignments, intervention and effects are simulated. As in the paper's main tables, the figures assume no between-site variance; the paper's Appendix D relaxes that assumption.
 
 Code and data for the paper, including the R pipeline this page ports, are at [doi:10.17605/OSF.IO/XPA4S](https://doi.org/10.17605/OSF.IO/XPA4S).
 
 No build step, no dependencies, no tracking. Open `index.html` in any modern browser.
 
-## Educational companion
+## Educational materials
 
-[Plain-language reading guide and PDF](education/README.md), with a route through the full companion, ten-metric definitions, self-check answers and exact manuscript provenance.
+[Concise study guide](education/STUDY_GUIDE.md) ([PDF](education/STUDY_GUIDE.pdf)) and [complete 97-page companion](education/COMPANION.md) ([PDF](education/COMPANION.pdf)). See the [reader entry and coverage map](education/README.md) for source provenance, reading routes and self-check answers.
 
 ## Code license and third-party material
 
